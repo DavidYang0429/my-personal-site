@@ -4,7 +4,7 @@ import { PhysicsHero } from "@/components/PhysicsHero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-16 relative overflow-hidden pb-20">
+    <div className="min-h-screen bg-black overflow-hidden relative flex flex-col gap-16 pb-20">
       {/* Hero Section */}
       <section className="flex flex-col justify-center gap-6 py-20 lg:py-32 relative z-10">
         <PhysicsHero />
