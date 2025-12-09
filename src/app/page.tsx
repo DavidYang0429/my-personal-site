@@ -1,65 +1,50 @@
-import Image from "next/image";
+import { MagneticButton } from "@/components/MagneticButton";
+import { PhysicsHero } from "@/components/PhysicsHero";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+    <div className="flex flex-col gap-16 relative">
+      {/* Hero Section */}
+      <section className="flex flex-col justify-center gap-6 py-20 lg:py-32 relative z-10">
+        <PhysicsHero />
+        <h1 className="text-5xl font-bold tracking-tight sm:text-7xl bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">
+          David Yang
+        </h1>
+        <p className="text-xl text-secondary max-w-2xl font-light leading-loose">
+          Exploring the frontiers of <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent font-medium">Web3</span>, <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent font-medium">AI</span>, and the <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent font-medium">future of finance</span>.
+          Building digital experiences that bridge technology and humanity.
+        </p>
+        <div className="flex gap-4 pt-8">
+          <MagneticButton>
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="/portfolio"
+              className="inline-block rounded-full bg-white px-8 py-3 text-sm font-medium text-black transition hover:bg-gray-200"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
+              View Work
+            </a>
+          </MagneticButton>
+          <MagneticButton>
             <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="/blog"
+              className="inline-block rounded-full border border-white/20 bg-white/5 px-8 py-3 text-sm font-medium text-white transition hover:bg-white/10"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              Read Thoughts
+            </a>
+          </MagneticButton>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Bento Grid Teaser (Placeholder) */}
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="glass-card rounded-3xl p-8 min-h-[300px] group">
+          <h3 className="text-2xl font-medium text-foreground group-hover:text-blue-400 transition-colors">Latest Article</h3>
+          <p className="text-secondary mt-4">Deep dive into the latest crypto protocols.</p>
         </div>
-      </main>
+        <div className="glass-card rounded-3xl p-8 min-h-[300px] md:col-span-2 group">
+          <h3 className="text-2xl font-medium text-foreground group-hover:text-purple-400 transition-colors">Featured Project</h3>
+          <div className="mt-4 h-32 rounded-xl bg-white/10 w-full"></div>
+        </div>
+      </section>
     </div>
   );
 }
