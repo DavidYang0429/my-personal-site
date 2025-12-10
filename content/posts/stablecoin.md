@@ -1,8 +1,8 @@
 ---
-title: 'Stablecoin - The Chinese Government's Red Line'
+title: "Stablecoin-The Chinese Government's Red Line"
 date: '2025-12-10'
 category: 'Crypto'
-excerpt: 'China's strict ban on stablecoins and its enforcement logic'
+excerpt: "China's strict ban on stablecoins and its enforcement logic"
 readTime: '10 min read'
 ---
 
