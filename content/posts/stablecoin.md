@@ -194,4 +194,4 @@ Disclaimer: Cryptocurrency investment carries a high level of risk, this tutoria
  Global attitudes towards stablecoins are diverging: on one side, there is a compliance path in the US, EU, and Singapore, and on the other side, there is a total ban in China. This difference is rooted in different financial philosophies and strategic considerations.
 
  For practitioners and investors who are in or connected to China, it is more important than anything else to recognize where this red line is, understand the logic behind it, and grasp the scale of enforcement.
-![nano-banana summary](/images/blog/5.png)
+
