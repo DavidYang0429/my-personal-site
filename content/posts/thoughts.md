@@ -1,6 +1,6 @@
 ---
 title: 'Web3 has never been a religion, but a scam and a casino.'
-date: '2025-11-15'
+date: '2025-12-09'
 category: 'Personal Article'
 excerpt: 'Reflections on the current state of Web3, speculation, and the future of decentralized tech.'
 readTime: '8 min read'
