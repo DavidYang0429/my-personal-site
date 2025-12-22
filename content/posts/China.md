@@ -11,7 +11,7 @@ As the calendar of 2025 is about to turn over, China's economy has delivered a r
 
  This is not a simple report, this is a pressure test of the global trade pattern.
 
-![5.png]
+![news](/images/blog/5.png)
 ---
 
 ### **I. The "counter-intuitive" truth in the data: the widening of the scissor gap**
@@ -24,7 +24,7 @@ As the calendar of 2025 is about to turn over, China's economy has delivered a r
 
  This "asymmetric" trade flows, revealing the deeper logic of the current economic operation: China is through the strong industrial capacity to the global output of deflationary pressures, while the absorption capacity of the domestic market has failed to keep pace.
 
-![6.png]
+![data](/images/blog/6.png)
 
 ---
 
